@@ -502,11 +502,13 @@ a:hover figcaption { color: #D32F2F; }
         transition: all 0.3s ease;
     }
     #tm-main-left {
-        height: 200px;
+        height: 0px;
         width: 80%;
         float: none;
         border-radius: .25em;
         margin-bottom: 20px;
+        visibility: hidden;
+        content-visibility: hidden;
     }
 
     .tm-header.show { left: 0; }
