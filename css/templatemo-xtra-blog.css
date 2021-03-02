@@ -34,7 +34,7 @@ hr {
     background-size: cover;
     opacity: 0.9;
     
-    background-color: #B71C1C;
+    background-color: #D32F2F;
     color: white;
     
     position: fixed;
@@ -75,7 +75,7 @@ hr {
     justify-content: center;
 }
 
-.tm-site-logo i { color: #B71C1C; }
+.tm-site-logo i { color: #D32F2F; }
 
 .tm-main {
     margin-left: 400px;
@@ -136,7 +136,7 @@ hr {
 .tm-nav-item:hover .tm-nav-link,
 .tm-nav-item.active .tm-nav-link
  {
-    color: #B71C1C;
+    color: #D32F2F;
     background-color: #bdbdbd;
     text-decoration: none;
 }
@@ -180,7 +180,7 @@ ul {
 }
 
 .tm-social-icon { 
-    color: #B71C1C;    
+    color: #D32F2F;    
     transition: all 0.3s ease;
 }
 
@@ -211,7 +211,7 @@ ul {
     width: 60px;
     height: 60px;
     border: none;
-    background-color: #B71C1C;
+    background-color: #D32F2F;
     transition: all 0.3s ease;
 }
 
@@ -264,7 +264,7 @@ ul {
 .tm-new-badge {
     top: 25px;
     right: -10px;
-    background-color: #B71C1C;
+    background-color: #D32F2F;
     color: white;
     padding: 5px 20px;
 }
@@ -279,7 +279,7 @@ ul {
     color: #999;
 }
 
-.tm-post-link:hover .tm-post-title { color: #B71C1C; }
+.tm-post-link:hover .tm-post-title { color: #D32F2F; }
 
 .tm-btn {
     display: inline-block;
@@ -289,7 +289,7 @@ ul {
 }
 
 .tm-btn-primary {    
-    background-color: #B71C1C;
+    background-color: #D32F2F;
     color: white;  
     padding: 8px 43px;
     border: none;
@@ -322,7 +322,7 @@ ul {
 
 .tm-paging-item .tm-paging-link:hover,
 .tm-paging-item.active .tm-paging-link {
-    background-color: #B71C1C;
+    background-color: #D32F2F;
     color: white;
 }
 
@@ -332,7 +332,7 @@ ul {
     cursor: not-allowed;
 }
 
-.tm-external-link { color: #B71C1C; }
+.tm-external-link { color: #D32F2F; }
 .tm-external-link:hover { color: #09b6b6; }
 
 .tm-paging-wrapper {
@@ -352,7 +352,7 @@ ul {
 .tm-copyright { text-align: right; }
 
 /* Single Post page */
-hr.tm-hr-primary { border-top: 5px solid #B71C1C; }
+hr.tm-hr-primary { border-top: 5px solid #D32F2F; }
 
 video {
     width: 100%;
@@ -373,7 +373,7 @@ video {
 
 .form-control {
     height: 45px;
-    border-color: #B71C1C;
+    border-color: #D32F2F;
     border-radius: 0;
 }
 
@@ -405,17 +405,17 @@ figcaption { line-height: 1.4; }
 .tm-mt-40 { margin-top: 40px; }
 .tm-mt-100 { margin-top: 100px; }
 .tm-mr-20 { margin-right: 20px; }
-.tm-color-primary, span.tm-color-primary { color: red; }
+.tm-color-primary, span.tm-color-primary { color: #D32F2F; }
 a.tm-color-gray, .tm-color-gray { color: #999; }
-a.tm-color-gray:hover { color: red; }
+a.tm-color-gray:hover { color: #D32F2F; }
 .tm-bg-gray { background-color: #F3F4F5; }
 button:focus { outline: none; }
 a:hover { 
     text-decoration: none; 
-    color: red;
+    color: #D32F2F;
 }
 
-a:hover figcaption { color: red; }
+a:hover figcaption { color: #D32F2F; }
 .img-thumbnail { max-width: none; }
 .tm-about-pad { padding: 40px 35px; }
 .tm-person { max-width: 430px; }
@@ -436,7 +436,7 @@ a:hover figcaption { color: red; }
 .tm-social-links li a {
     display: block;
     color: white;
-    background-color: #B71C1C;
+    background-color: #D32F2F;
     width: 45px;
     height: 45px;    
     margin-right: 15px;    
@@ -445,7 +445,7 @@ a:hover figcaption { color: red; }
 .tm-social-links li a i { transition: all 0.3s ease; }
 .tm-social-links li a:hover i.fa-facebook { color: #3b5998; }
 .tm-social-links li a:hover i.fa-twitter { color: #00acee; }
-.tm-social-links li a:hover i.fa-youtube { color: #c4302b; }
+.tm-social-links li a:hover i.fa-youtube { color: #D32F2F; }
 .tm-social-links li a:hover i.fa-instagram { color: #3f729b; }
 
 .tm-contact-right { padding-left: 55px; }
@@ -501,6 +501,13 @@ a:hover figcaption { color: red; }
         left: -320px;        
         transition: all 0.3s ease;
     }
+    #tm-main-left {
+        height: 200px;
+        width: 80%;
+        float: none;
+        border-radius: .25em;
+        margin-bottom: 20px;
+    }
 
     .tm-header.show { left: 0; }
     .tm-header-wrapper { padding: 15px; }
@@ -510,11 +517,11 @@ a:hover figcaption { color: red; }
         position: fixed;
         left: 0;
         top: 0;
-        background-color: rgba(56, 204, 204, 0.75);
+        background-color: #D32F2F;
         color: white;
         padding: 10px 15px;
         transition: all 0.3s ease;
-        border-radius: 0;
+        border-radius: 0.25em;
         top: 5px;
     }
 
